@@ -1,0 +1,593 @@
+    body {
+        height: 100%;
+        position: relative;
+    }
+    /*    @font-face {*/
+    /*        font-family: 'ProximaNovaReg';*/
+    /*        src: url(../fonts/proximanova-regular-webfont.eot);*/
+    /*    }*/
+    /*    */
+    /*    @font-face {*/
+    /*        font-family: 'ProximaNovaBold';*/
+    /*        src: url(../fonts/proximanova-bold.otf);*/
+    /*    }*/
+    
+    @font-face {
+        font-family: 'Nautilus';
+        src: url(../fonts/Nautilus.otf);
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url(../fonts/Montserrat-Bold.ttf);
+    }
+    
+    #bootstrap-overrides .navbar {
+        background-color: transparent;
+        min-height: 38px;
+        border: none;
+    }
+    
+    #bootstrap-overrides .navbar .navbar-nav {
+        height: 38px;
+    }
+    
+    #bootstrap-overrides nav ul li a {
+        font: 400 16px ProximaNovaReg;
+        color: #ffffff;
+        padding: 0 15px;
+    }
+    
+    #bootstrap-overrides nav ul li a {
+        height: 38px;
+        line-height: 38px;
+        border-top: 5px solid transparent;
+    }
+    
+    #bootstrap-overrides nav ul li a:hover,
+    #bootstrap-overrides .navbar-default .navbar-nav>.active>a {
+        border-top: 5px solid #54d154;
+        display: block;
+        background-color: transparent;
+    }
+    
+    #bootstrap-overrides nav .container-fluid .logo {
+        padding: 0;
+        font: 400 24px Nautilus;
+        color: #ffffff;
+        /*    margin-top: 9.5px !important;*/
+        float: none;
+        line-height: 44px;
+    }
+    
+    #bootstrap-overrides .navbar-form input[type=search] {
+        width: 177px;
+        height: 27px;
+        border-radius: 13px;
+        opacity: .8;
+        color: #515050;
+    }
+    
+    #bootstrap-overrides .navbar-form span {
+        height: 27px;
+        line-height: 27px;
+    }
+    
+    #bootstrap-overrides .navbar-form input[type=search]::-webkit-input-placeholder {
+        color: #515050 !important;
+    }
+    
+    #bootstrap-overrides header {
+        background: url(../images/background.png);
+        background-size: 100% 100%;
+        /*NB!*/
+    }
+    
+    #bootstrap-overrides header .intro-text {
+        padding-top: 275px;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides header .intro-text p {
+        font: 700 55px Montserrat;
+        color: #fff;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides header .intro-text button {
+        background: #54d154;
+        width: 208px;
+        height: 47px;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 40px;
+        margin-top: 20px;
+        font: 400 22px 'ProximaNovaReg';
+    }
+    
+    #bootstrap-overrides header .scroll-down {
+        width: 120px;
+        height: 25px;
+        margin-top: 208px !important;
+        margin: 0 auto;
+        margin-bottom: 12px !important;
+    }
+    
+    #bootstrap-overrides header .scroll-down a {
+        opacity: .8;
+        border-radius: 13px;
+        width: 120px;
+        height: 25px;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #000;
+        line-height: 25px;
+    }
+    
+    #bootstrap-overrides header .scroll-down span {
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    #bootstrap-overrides section .row hr {
+        width: 43px;
+        background-color: #828181;
+        height: 2px;
+        margin-top: 13px;
+        border: none;
+    }
+    
+    #bootstrap-overrides h2 {
+        color: #828181;
+        font: 100 20px Montserrat Light;
+        margin-top: 43px;
+    }
+    
+    #bootstrap-overrides h3 {
+        color: #b7b3b3;
+        font: 300 16px Open Sans Light;
+        margin-top: 10px;
+    }
+    
+    #bootstrap-overrides section .container .row .fa-stack {
+        color: #54d154;
+    }
+    
+    #bootstrap-overrides section .container .row .text-primary {
+        color: #e1f3e1;
+    }
+    
+    #bootstrap-overrides section .container .row:nth-of-type(2) {
+        margin-top: 71px;
+    }
+    
+    #bootstrap-overrides h4 {
+        color: #828181;
+        font: 700 24px ProximaNovaBold;
+    }
+    
+    #bootstrap-overrides section .container .row:nth-of-type(2) p {
+        width: 266px;
+    }
+    
+    #bootstrap-overrides section .container .row:nth-of-type(2) button {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #54d154;
+        color: #fff;
+        font: 16px ProximaNovaBold;
+        margin-top: 26px;
+    }
+    
+    #bootstrap-overrides section {
+        padding-bottom: 74px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) {
+        padding-bottom: 53px;
+        background-color: #54d154;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) hr {
+        background-color: #2b9b2b !important;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) .container {
+        text-align: center;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) h2 {
+        color: #1f7b1f;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) h3 {
+        color: #2b9b2b;
+    }
+    
+    #bootstrap-overrides section .btn-group button {
+        height: 31px;
+        color: #2b9b2b;
+        font: 400 16px ProximaNovaReg;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 60px;
+        margin-bottom: 59px;
+    }
+    /*#bootstrap-overrides section .btn-group button{*/
+    /*    background-color: #2b9b2b;*/
+    /*    color: #fff;*/
+    /*}*/
+    
+    #bootstrap-overrides section .btn-group button:first-of-type {
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    
+    #bootstrap-overrides section .btn-group button:last-of-type {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) .row img {
+        margin-right: 31px;
+        margin-bottom: 29px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) .design,
+    #bootstrap-overrides section:nth-of-type(2) .print {
+        display: none;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) a {
+        width: 186px;
+        height: 40px;
+        background-color: #2b9b2b;
+        color: #fff;
+        border-radius: 40px;
+        color: #ffffff;
+        padding-top: 8px;
+        font: 400 18px ProximaNovaReg;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(2) i {
+        margin-left: 6px;
+        vertical-align: middle;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(3) {
+        padding-bottom: 63px;
+    }
+    
+    #bootstrap-overrides .selected-item {
+        background-color: #2b9b2b;
+        color: #fff !important;
+    }
+    
+    #bootstrap-overrides .carousel-inner > .item > img {
+        /*      width: 70%;*/
+        /*      margin: auto;*/
+    }
+    
+    #bootstrap-overrides section .item {
+        width: 485px;
+        height: 110px;
+        margin-top: 45px;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides .carousel {
+        margin-top: 61px;
+        background-color: #ffffff;
+        float: none;
+    }
+    
+    #bootstrap-overrides .carousel .carousel-control {
+        background-color: #ffffff !important;
+        background-image: none;
+    }
+    
+    #bootstrap-overrides .carousel .left {
+        margin-right: 123px;
+    }
+    
+    #bootstrap-overrides .carousel .right {
+        margin-left: 123px;
+    }
+    
+    #bootstrap-overrides .author {
+        width: 190px;
+    }
+    
+    #bootstrap-overrides .author img {
+        float: left !important;
+    }
+    
+    #bootstrap-overrides .author p {
+        margin: 0;
+        margin-left: 53px;
+        text-align: left;
+    }
+    
+    #bootstrap-overrides .carousel .carousel-control {
+        line-height: 155px;
+    }
+    
+    #bootstrap-overrides .carousel .carousel-control:nth-of-type(2) {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) {
+        background-color: #f2f1f1;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) a:not(.btn) {
+        display: flex;
+        align-items: center;
+        height: 125px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) a img {
+        margin: 30px auto;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) .has-feedback {
+        height: 40px;
+        background-color: #dddcdc;
+        width: 186px;
+        font: 400 18px ProximaNovaReg;
+        border-radius: 20px;
+        margin-top: 60px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) .has-feedback a {
+        padding: 0;
+        line-height: 40px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(4) .has-feedback i {
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) {
+        background-color: #54d154;
+        padding-bottom: 0;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) h2 {
+        color: #1f7b1f;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) hr {
+        background-color: #1f7b1f !important;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) p {
+        color: #ffffff;
+        font: 400 16px ProximaNovaReg;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) .row:nth-of-type(2) hr {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 77px !important;
+        margin-top: 45px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) h3 {
+        color: #2b9b2b;
+        font: 300 16px OpenSans;
+    }
+    
+    #bootstrap-overrides section .social {
+        width: 84px;
+        height: 28px;
+        background-color: #c5e9c5;
+        line-height: 28px;
+        text-align: center;
+        border-radius: 14px;
+        text-decoration: none;
+    }
+    
+    #bootstrap-overrides section .social a:hover {
+        text-decoration: none;
+    }
+    
+    #bootstrap-overrides section .social img {
+        margin-left: 2px;
+    }
+    
+    #bootstrap-overrides section .social img:first-of-type {
+        margin-left: 0;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) p {
+        width: 100% !important;
+        margin-top: 42px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) .bottom-btn {
+        background-color: #3eba3e;
+        margin-top: 60px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(5) .bottom-btn a {
+        width: 175px;
+        line-height: 42px;
+        color: #ffffff;
+        font: 300 18px ProximaNovaReg;
+        box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.1);
+        margin-top: 27px;
+        margin-bottom: 27px;
+        border-radius: 20px;
+        background-color: #54d154;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) {
+        background-color: #333333;
+        padding-bottom: 32px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .row .col-md-4:nth-of-type(2) {
+        /*    margin-left: 63px;*/
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) h2 {
+        color: #dddddd;
+        font: 16px Montserrat Light;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) hr {
+        background-color: #dddddd !important;
+        margin-top: 0 !important;
+        width: 30px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) p {
+        color: #cccccc;
+        font: 16px ProximaNovaReg;
+        margin-bottom: 4px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .social {
+        background-color: #e6e7e6;
+        margin-top: 25px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex {
+        width: 290px;
+        height: 53px;
+        margin-bottom: 11px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex img {
+        float: left;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex p {
+        margin-left: 60px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex p {
+        color: #cccccc;
+        font: 300 16px Montserrat Light;
+        text-transform: capitalize;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex a {
+        color: #ffffff;
+        font: 300 12px Montserrat Light;
+        padding: 2px 8px;
+        border-radius: 4px;
+        margin-left: 8px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex:first-of-type a {
+        background-color: #54d154;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex:nth-of-type(2) a,
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex:nth-of-type(5) a {
+        background-color: #ffba00;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex:nth-of-type(3) a {
+        background-color: #089dea;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) .recent-posts-ex:nth-of-type(4) a {
+        background-color: #f34d04;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) form input,
+    #bootstrap-overrides section:nth-of-type(6) textarea {
+        background-color: #444444;
+        border: none;
+        margin-top: 2px;
+        color: #ffffff;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) address {
+        color: #cccccc;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(6) button {
+        background-color: #2b9b2b;
+        color: #ffffff;
+        border: none;
+        margin-top: 2px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(7) {
+        background-color: #222222;
+        padding-bottom: 29px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(7) h2 {
+        color: #101010;
+        font: 300 16px Montserrat Light;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(7) hr {
+        background-color: #101010;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(7) .row:nth-of-type(2) {
+        margin-top: 10px;
+    }
+    
+    #bootstrap-overrides section:nth-of-type(7) .row div:nth-of-type(3) {
+        margin-right: 42px;
+    }
+    
+    #bootstrap-overrides footer {
+        background-color: #111111;
+        padding: 10px 0;
+    }
+    
+    #bootstrap-overrides footer p {
+        margin: 0;
+        color: #fff;
+        font: 400 16px ProximaNovaReg;
+    }
+    /*responsive stuff*/
+    
+    @media (max-width:768px) {
+        #bootstrap-overrides .navbar-toggle {
+            float: left;
+        }
+        #bootstrap-overrides .navbar-form {
+            border: none;
+            box-shadow: none;
+            float:
+        }
+        #bootstrap-overrides .logo {
+            display: none;
+        }
+        #bootstrap-overrides .navbar .navbar-nav {
+            height: 180px !important;
+            border: none;
+            box-shadow: none;
+            width: 250px;
+        }
+        #bootstrap-overrides nav ul li a:hover,
+        #bootstrap-overrides .navbar-default .navbar-nav>.active>a {
+            display: inline-block;
+            width: 120px;
+            text-align: center;
+        }
+        #bootstrap-overrides section:nth-of-type(5) .row .col-md-2 {
+            margin-top: 30px;
+        }
+        #bootstrap-overrides section:nth-of-type(7) .row .col-md-2 {
+            margin-top: 20px;
+        }
+    }
